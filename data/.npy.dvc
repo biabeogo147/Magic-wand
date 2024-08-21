@@ -1,0 +1,6 @@
+outs:
+- md5: 6382c8bece6f2ce6103a5bc649477fb9.dir
+  size: 385150512
+  nfiles: 4
+  hash: md5
+  path: .npy

@@ -1,0 +1,6 @@
+outs:
+- md5: 61b47e2b96028a947e90bd51ce580bee.dir
+  size: 29316837
+  nfiles: 4
+  hash: md5
+  path: .npz
