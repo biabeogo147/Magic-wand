@@ -2,6 +2,7 @@ import os
 import cv2
 import torch
 import dataset
+import util
 import argparse
 import numpy as np
 import magic_wand_model
@@ -21,8 +22,7 @@ def test(args):
     print(args)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    classes = ['circle', 'square', 'triangle', 'zigzag']
-    model = magic_wand_model.magic_wand_model(num_classes=len(classes)).to(device)
+    model = magic_wand_model.magic_wand_model(num_classes=len(util.classes)).to(device)
 
     if os.path.exists(os.path.join(args.model_path, "best.pt")):
         checkpoint = torch.load(os.path.join(args.model_path, "best.pt"))
@@ -38,7 +38,7 @@ def test(args):
 
     model.eval()
     output = model(image.unsqueeze(0).unsqueeze(0))
-    print(output, classes[torch.argmax(output)])
+    print(output, util.classes[torch.argmax(output)])
 
 
 if __name__ == '__main__':
