@@ -1,7 +1,7 @@
 # <span style="color: #FF69B4;">✨ Magic Wand Project ✨</span>
 
 ## <span style="color: #FFD700;">🌟 Overview</span>
-Magic Wand is an enchanting application that lets you draw on the screen, and a clever model will recognize your artwork! 🎨 The project includes magical components like a camera for capturing drawings, data processing spells, model training wizardry, and inference to reveal the secrets of your images. 🪄
+Magic Wand is an enchanting application that lets you draw on the screen, and a clever model will recognize your artwork! 🎨 The project includes magical components like a camera for capturing drawings, data processing spells, model training wizardry, and inference to reveal the secrets of your images.
 
 ---
 
@@ -83,7 +83,7 @@ Here are the magical charts from the training process:
 **Training Loss (Smoothed: 0.467, Final: 0.468)**  
 ![Training Loss](img/Train.png)
 
-<br><br>
+<br>
 
 **Validation F1-Score (Smoothed: 0.982, Final: 0.819) - Loss (Smoothed: 0.542, Final: 0.055)**  
 ![Validation F1-Score](img/Val.png)
