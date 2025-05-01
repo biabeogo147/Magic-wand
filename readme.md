@@ -30,7 +30,6 @@ python inference.py --data_path data/test --model_path model
 The results will appear in the terminal, revealing the predicted label and the model's confidence score. 🧙‍♀️
 
 ### 3. **Demo in Action** 🎥
-Here’s a space for you to add a GIF showcasing the app in action while you play with it:
 
 ![Gameplay Demo](img/gameplay.gif)
 
